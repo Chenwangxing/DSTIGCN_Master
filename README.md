@@ -12,7 +12,8 @@ To address these problems, we propose a Deformable Spatial-Temporal Interaction 
 ## Method
 The overall architecture of the model is shown in Fig. 1. DSTIGCN first constructs a spatial graph based on the position changes of pedestrians and then obtains the attention score matrix through attention mechanisms to preliminary represent the social interactions of pedestrians at each moment. To further achieve joint learning of pedestrian social and temporal interactions, we design a deformable spatial-temporal interaction module with multiple layers of deformable spatial-temporal interaction convolutions stacked together. The deformable spatial-temporal interaction convolution is optimized based on the deformable 3D convolution, which reduces the number of model parameters while avoiding excessive information redundancy. The deformable spatial-temporal interaction module processes the attention score matrix to capture the complex spatial-temporal interactions of pedestrians and then obtains the trajectory representation through graph convolution. Subsequently, we design a TAG-TCN to predict the parameters of the two-dimensional Gaussian distribution of future trajectories. Finally, we introduce Latin hypercube sampling to sample from the predicted two-dimensional Gaussian distribution, thereby achieving multi-modal prediction of pedestrian trajectories.
 
-[Figure 1.pdf](https://github.com/user-attachments/files/18310111/Figure.3.-.2.pdf)
+
+<img width="1008" alt="DSTIGCN" src="https://github.com/user-attachments/assets/e78300c4-f241-4892-8b8e-07dac2440ccd" />
 
 
 ## Code Structure
