@@ -27,8 +27,23 @@ We also compare the trajectory visualization results of different sampling metho
 
 
 ## Code Structure
+checkpoint folder: contains the trained models
+
 dataset folder: contains ETH and UCY datasets
 
+model.py: the code of STIGCN
+
+test_Qmc.py: QMC sampling test code
+
+test_Lhs.py: LHS sampling test code
+
+utils.py: general utils used by the code
+
+metrics.py: Measuring tools used by the code
+
+
+## Model Evaluation
+You can easily run the model！ To use the pretrained models at checkpoint/ and evaluate the models performance run:  test_Lhs.py and test_Qmc.py
 
 
 
