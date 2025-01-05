@@ -19,6 +19,12 @@ The overall architecture of the model is shown in Fig. 1. DSTIGCN first construc
 
 <img width="1008" alt="DSTIGCN" src="https://github.com/user-attachments/assets/e78300c4-f241-4892-8b8e-07dac2440ccd" />
 
+We compare our method with Social-STGCNN, SGCN, and RDGCN through trajectory visualization, as shown in Fig. 2.
+![DSTIGCN-单条轨迹 - 修改1](https://github.com/user-attachments/assets/1d7bcb0b-9670-46af-8ca9-ace215a04e82)
+
+We also compare the trajectory visualization results of different sampling methods (MC, QMC, and LHS) when the number of samples is 20, as shown in Fig. 3.
+<img width="862" alt="DSTIGCN-预测分布对比 - 修改1" src="https://github.com/user-attachments/assets/586cbf19-997c-4f45-9c12-b6c5b3cee063" />
+
 
 ## Code Structure
 dataset folder: contains ETH and UCY datasets
