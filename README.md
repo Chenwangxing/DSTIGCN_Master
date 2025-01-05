@@ -42,6 +42,21 @@ utils.py: general utils used by the code
 metrics.py: Measuring tools used by the code
 
 
+\begin{table}[!t]
+\caption{Ablation experiments with different sampling methods. The lower, the better. Bold: best.}
+\centering
+\label{table8}
+\setlength{\tabcolsep}{1mm}{
+\begin{tabular}{ccccccc}
+\hline
+          & ETH       & HOTEL     & UNIV      & ZARA1     & ZARA2     & AVG       \\ \hline
+MC        & 0.60/1.00 & 0.33/0.56 & 0.37/0.70 & 0.28/0.50 & 0.24/0.43 & 0.36/0.64 \\
+QMC       & 0.53/0.99 & \textbf{0.22}/\textbf{0.34} & 0.31/0.57 & 0.24/0.45 & 0.21/0.41 & 0.30/0.55 \\
+Our (LHS) & \textbf{0.43}/\textbf{0.70} & \textbf{0.22}/0.41 & \textbf{0.25}/\textbf{0.45} & \textbf{0.20}/\textbf{0.37} & \textbf{0.17}/\textbf{0.32} & \textbf{0.25}/\textbf{0.45} \\ \hline
+\end{tabular}}
+\end{table}
+
+
 ## Model Evaluation
 You can easily run the model！ To use the pretrained models at checkpoint/ and evaluate the models performance run:  test_Lhs.py and test_Qmc.py
 
