@@ -48,8 +48,15 @@ In addition, we apply QMC and LHS sampling methods to our public works STIGCN an
 
 STIIGCN: https://github.com/Chenwangxing/STIGCN_master
 
+
 IMGCN: https://github.com/Chenwangxing/IMGCN_master
 
+The prediction errors of different sampling methods of IMGCN are shown in the following table:
+| IMGCN  | ETH | HOTEL| UNIV| ZARA1 | ZARA2 | AVG |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| MC  | 0.61/0.82 | 0.31/0.45| 0.37/0.67| 0.29/0.51 | 0.24/0.42 | 0.36/0.57 |
+| QMC  | 0.59/1.09 | 0.22/0.34| 0.31/0.58| 0.25/0.48 | 0.22/0.41 | 0.32/0.58 |
+| LHS  | 0.54/1.03 | 0.23/0.45| 0.26/0.47| 0.21/0.39 | 0.18/0.34 | 0.28/0.54 |
 
 ## Acknowledgement
 Some codes are borrowed from Social-STGCNN and SGCN. We gratefully acknowledge the authors for posting their code.
