@@ -44,6 +44,12 @@ metrics.py: Measuring tools used by the code
 You can easily run the model！ To use the pretrained models at checkpoint/ and evaluate the models performance run:  test_Lhs.py and test_Qmc.py
 
 
+In addition, we apply QMC and LHS sampling methods to our public works STIGCN and IMGCN. We found that the LHS sampling method can also achieve better prediction results in these two works.
+
+STIIGCN: https://github.com/Chenwangxing/STIGCN_master
+
+IMGCN: https://github.com/Chenwangxing/IMGCN_master
+
 
 ## Acknowledgement
 Some codes are borrowed from Social-STGCNN and SGCN. We gratefully acknowledge the authors for posting their code.
