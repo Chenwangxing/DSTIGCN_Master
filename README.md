@@ -46,7 +46,7 @@ You can easily run the model！ To use the pretrained models at checkpoint/ and 
 
 In addition, we apply QMC and LHS sampling methods to our public works STIGCN and IMGCN. We found that the LHS sampling method can also achieve better prediction results in these two works.
 
-STIIGCN: https://github.com/Chenwangxing/STIGCN_master
+STIIGCN (Code: https://github.com/Chenwangxing/STIGCN_master; Paper: [h](https://link.springer.com/article/10.1007/s11227-023-05850-8))
 
 The prediction errors of different sampling methods of STIGCN are shown in the following table:
 | STIGCN  | ETH | HOTEL| UNIV| ZARA1 | ZARA2 | AVG |
@@ -55,7 +55,7 @@ The prediction errors of different sampling methods of STIGCN are shown in the f
 | QMC  | 0.52/0.96 | 0.22/0.33| 0.31/0.56| 0.25/0.45 | 0.21/0.39 | 0.30/0.54 |
 | LHS  | 0.43/0.68 | 0.24/0.48| 0.26/0.48| 0.22/0.41 | 0.17/0.32 | 0.26/0.47 |
 
-IMGCN: https://github.com/Chenwangxing/IMGCN_master
+IMGCN (Code: https://github.com/Chenwangxing/IMGCN_master; Paper: [h](https://www.tandfonline.com/doi/abs/10.1080/21680566.2024.2389896))
 
 The prediction errors of different sampling methods of IMGCN are shown in the following table:
 | IMGCN  | ETH | HOTEL| UNIV| ZARA1 | ZARA2 | AVG |
