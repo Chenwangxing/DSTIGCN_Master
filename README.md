@@ -21,7 +21,7 @@ Schematic diagram of deformable spatial-temporal interaction convolution.
 
 
 
-We also compare the trajectory visualization results of different sampling methods (MC, QMC, and LHS) when the number of samples is 20, as shown in Fig. 3.
+We also compare the trajectory visualization results of different sampling methods (MC, QMC, and LHS) when the number of samples is 20.
 <img width="862" alt="DSTIGCN-预测分布对比 - 修改1" src="https://github.com/user-attachments/assets/586cbf19-997c-4f45-9c12-b6c5b3cee063" />
 
 
