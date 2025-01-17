@@ -1,6 +1,7 @@
 # DSTIGCN_Master
 
 DSTIGCN: Deformable Spatial-Temporal Interaction Graph Convolution Network for pedestrian trajectory prediction
+Paper: [DSTIGCN: Deformable Spatial-Temporal Interaction Graph Convolution Network for pedestrian trajectory prediction]([https://link.springer.com/article/10.1007/s11227-023-05850-8](https://ieeexplore.ieee.org/document/10843981)))
 
 The code and weights have been released, enjoy it！
 
