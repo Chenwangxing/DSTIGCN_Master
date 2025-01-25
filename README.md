@@ -69,4 +69,7 @@ The prediction errors of different sampling methods of IMGCN are shown in the fo
 ## Acknowledgement
 Some codes are borrowed from Social-STGCNN and SGCN. We gratefully acknowledge the authors for posting their code.
 
+## Cite this article:
+
+Chen W, Sang H, Wang J, et al. DSTIGCN: Deformable Spatial-Temporal Interaction Graph Convolution Network for Pedestrian Trajectory Prediction[J]. IEEE Transactions on Intelligent Transportation Systems, 2025.
 
