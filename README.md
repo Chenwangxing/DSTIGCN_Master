@@ -33,6 +33,8 @@ dataset folder: contains ETH and UCY datasets
 
 model.py: the code of STIGCN
 
+train.py: for training the code
+
 test_Qmc.py: QMC sampling test code
 
 test_Lhs.py: LHS sampling test code
